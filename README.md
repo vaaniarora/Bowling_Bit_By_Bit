@@ -1,8 +1,10 @@
 # Bowling Bit By Bit
 
-Group Members: Vaani Arora, Matthew Gong, Hongye Liang, Charlene Patenaude, Palvi Sabherwal
+Group Members: Vaani Arora (6631709), Matthew Gong (6084586), Hongye (Peter) Liang (5432141), Charlene Patenaude (5181904), Palvi Sabherwal (5627260)
+Group Section: 3 PM
 
 ## Bowling Game
+### Project Goals
 Our team's bowling simulator will teach novice users how to bowl. The skills we plan to target are throwing the ball straight, aiming, and hitting the pins.
 
 ## HW3: Bowling_Bit_By_Bit Scene
