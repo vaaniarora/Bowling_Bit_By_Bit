@@ -1821,7 +1821,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529919654}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e9b2ee5cd2da34aa6b90b8a620af7b91, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3685,6 +3685,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9140642911520233851, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
+    - target: {fileID: -8708195657679933891, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3725,9 +3733,161 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8386040262343028454, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -8361479870409065631, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -8058769856952221374, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -7430142537970796092, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
+    - target: {fileID: -7390645515269867808, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -7385442013046201895, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -6807008864930699348, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -6587894841544078406, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -6370050104891103431, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -6013443168442917916, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -5441119864242979866, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
+    - target: {fileID: -4826221048903473496, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
+    - target: {fileID: -4521841849139128381, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -3367974370405810719, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -1772795355059567934, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -1378821904843439000, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
+    - target: {fileID: -1204934442497516923, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -1169256928676427336, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
+    - target: {fileID: -1043715211872826208, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
+    - target: {fileID: -447316554391178137, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: -109446957995324313, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
+    - target: {fileID: 53362999092281305, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 485134826663363420, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 489584731754067737, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
       propertyPath: m_Name
       value: bowling club
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180876649136964170, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 2243364790856048928, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 3671705736949505125, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691616332646108650, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
+    - target: {fileID: 3731039964717763065, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 4362629865236985789, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 4400082585199572864, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548835908313427547, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Pin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027450180943643189, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 5516603303495395144, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 5624379419971784591, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230804602111320099, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 8254238637058432645, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976646790492299318, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
+      propertyPath: m_TagString
+      value: Ball
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -4182,14 +4342,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127059564}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.69, y: -0.23000002, z: -22.114105}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -16.19, y: -0.33, z: -18.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1993197666}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1144553766 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -109446957995324313, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -4255,6 +4415,7 @@ GameObject:
   - component: {fileID: 1209155343}
   - component: {fileID: 1209155342}
   - component: {fileID: 1209155341}
+  - component: {fileID: 1209155344}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4271,7 +4432,7 @@ Transform:
   m_GameObject: {fileID: 1209155339}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.602}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4445,6 +4606,50 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1209155344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209155339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1 &1248707196 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9140642911520233851, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
