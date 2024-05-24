@@ -22,6 +22,9 @@ public class Bowling : MonoBehaviour
         // grabInteractable.onSelectEntered.AddListener(OnGrab);
         // grabInteractable.onSelectExited.AddListener(OnRelease);
         ballRigidbody = GetComponent<Rigidbody>();
+
+        ballRigidbody.drag = 0.02f;
+        ballRigidbody.angularDrag = 0.02f;
     }
 
     void OnGrab(XRBaseInteractor interactor)
@@ -49,6 +52,9 @@ public class Bowling : MonoBehaviour
 
             // Apply velocity to the ball's Rigidbody
             ballRigidbody.velocity = velocity;
+
+            // Add force
+            ballRigidbody.AddForce(velocity.normalized * 20f, ForceMode.Impulse);
 
             // Reset last position
             lastPosition = transform.position;
