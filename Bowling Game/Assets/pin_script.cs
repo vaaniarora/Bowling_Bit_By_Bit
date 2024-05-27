@@ -39,7 +39,7 @@ public class PinScript : MonoBehaviour
     private bool isKnockedDown = false;
     private Quaternion initialRotation;
     private Vector3 initialPosition;
-    private float knockdownAngleThreshold = 45.0f; // Angle threshold to consider the pin knocked down
+    private float knockdownAngleThreshold = 90.0f; // Angle threshold to consider the pin knocked down
     private float knockdownPositionThreshold = 0.1f; // Position threshold to consider the pin knocked down
 
     void Start()
