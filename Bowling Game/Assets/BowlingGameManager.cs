@@ -11,6 +11,7 @@ public class BowlingGameManager : MonoBehaviour
     public int totalPins = 10;
     private int knockedDownPins = 0;
     public TextMeshProUGUI scoreboardText; 
+    public Button moveButton;
 
     void Awake()
     {
@@ -26,7 +27,9 @@ public class BowlingGameManager : MonoBehaviour
 
     void Start()
     {
-        UpdateScoreboard();
+        if (moveButton != null) {
+            moveButton.onClick.AddListener(UpdateScoreboard);
+        }
     }
 
     public void PinKnockedDown()
