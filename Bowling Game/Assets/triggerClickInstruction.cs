@@ -9,6 +9,7 @@ public class triggerClickInstruction : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        buttonClickAction.action.Enable(); // Ensure the action is enabled
         buttonClickAction.action.performed += OnButtonClick;
     }
 

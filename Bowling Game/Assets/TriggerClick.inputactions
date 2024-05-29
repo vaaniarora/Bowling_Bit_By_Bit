@@ -1,0 +1,45 @@
+{
+    "name": "TriggerClick",
+    "maps": [
+        {
+            "name": "Controller",
+            "id": "86d797f8-1374-4140-8a15-1b4c65eb660e",
+            "actions": [
+                {
+                    "name": "PrimaryButtonClick",
+                    "type": "Button",
+                    "id": "a5862f64-e866-4ff1-ba84-ce6e210eff29",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "36807536-11cd-4625-b049-685dcc2fb356",
+                    "path": "<OculusTouchController>{LeftHand}/primaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButtonClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "35c2f5a0-0399-402b-8ccc-5de958ae92c2",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButtonClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
