@@ -10,7 +10,7 @@ Our team is focused on enhancing bowling skills. Through our bowling simulator, 
 ## Bowling Simulator Manual
 **How to Move:** 
 
-To move in the virtual space, you must physically move your body. When setting up the bowling simulator and designating a virtual boundary, it is important to have enough physical space in your real environment.
+To move in the virtual space, you must physically move your body. When setting up the bowling simulator and designating a virtual boundary, it is important to have enough physical space in your real environment. To ensure you have sufficient room to move around comfortably, aim to have space of at least 4 steps in each direction: forward, backward, right, and left.
 
 **Controller Movements:**
 
