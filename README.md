@@ -14,7 +14,7 @@ To move in the virtual space, you must physically move your body. When setting u
 
 **Controller Movements:**
 
-To grab a bowling ball in the simulator, aim your controller (right or left, depending on your dominant hand) at the object and click on the grip button. 
+To grab a ball, move your controller in the direction of the ball, aim your hand and grab it by pressing the controller’s grip button. The grip button is placed on the side of the controller and is where your middle finger should be positioned. Depending on your dominant hand, you can use either the right or left controller.
 
 ## HW3: Bowling_Bit_By_Bit Scene
 <img width="1710" alt="Screenshot 2024-05-14 at 12 14 40" src="https://github.com/vaaniarora/Bowling_Bit_By_Bit/assets/91294025/5d9bd7e1-8df2-4f7c-89f6-18ffb8c7d86c">
