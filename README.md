@@ -1,5 +1,6 @@
 # Bowling Bit By Bit
 
+## Group Info
 **Group Members:** Vaani Arora (6631709), Matthew Gong (6084586), Hongye (Peter) Liang (5432141), Charlene Patenaude (5181904), Palvi Sabherwal (5627260)
 
 **Group Section:** 3 PM
