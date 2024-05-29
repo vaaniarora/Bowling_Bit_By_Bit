@@ -1,9 +1,20 @@
 # Bowling Bit By Bit
 
-Group Members: Vaani Arora, Matthew Gong, Hongye Liang, Charlene Patenaude, Palvi Sabherwal
+**Group Members:** Vaani Arora (6631709), Matthew Gong (6084586), Hongye (Peter) Liang (5432141), Charlene Patenaude (5181904), Palvi Sabherwal (5627260)
 
-## Bowling Game
-Our team's bowling simulator will teach novice users how to bowl. The skills we plan to target are throwing the ball straight, aiming, and hitting the pins.
+**Group Section:** 3 PM
+
+## Project Idea
+Our team is focused on enhancing bowling skills. Through our bowling simulator, we aim to instruct novice bowlers in the fundamentals of the game. The simulator emphasizes key skills such as throwing the ball straight, aiming accurately, and successfully hitting the pins.
+
+## Bowling Simulator Manual
+**How to Move:** 
+
+To move in the virtual space, you must physically move your body. When setting up the bowling simulator and designating a virtual boundary, it is important to have enough physical space in your real environment.
+
+**Controller Movements:**
+
+To grab a bowling ball in the simulator, aim your controller (right or left, depending on your dominant hand) at the object and click on the grip button. 
 
 ## HW3: Bowling_Bit_By_Bit Scene
 <img width="1710" alt="Screenshot 2024-05-14 at 12 14 40" src="https://github.com/vaaniarora/Bowling_Bit_By_Bit/assets/91294025/5d9bd7e1-8df2-4f7c-89f6-18ffb8c7d86c">
