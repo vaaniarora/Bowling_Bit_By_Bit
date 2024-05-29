@@ -3815,7 +3815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1c12aed133af415495a4c0b45516f62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonClickAction: {fileID: -3599823989380923159, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
+  primaryButtonAction: {fileID: -3599823989380923159, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
 --- !u!82 &866870323
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9970,7 +9970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1c12aed133af415495a4c0b45516f62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonClickAction: {fileID: -3599823989380923159, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
+  primaryButtonAction: {fileID: -3599823989380923159, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
 --- !u!1 &1754347052 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3731039964717763065, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}

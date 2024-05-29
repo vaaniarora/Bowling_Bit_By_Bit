@@ -1,27 +1,35 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class triggerClickInstruction : MonoBehaviour
+public class TriggerClickInstruction : MonoBehaviour
 {
-    public InputActionReference buttonClickAction; // Reference to the ButtonClick Action
+    public InputActionReference primaryButtonAction; // Reference to the default primary button action
     private AudioSource audioSource;
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        buttonClickAction.action.Enable(); // Ensure the action is enabled
-        buttonClickAction.action.performed += OnButtonClick;
+
+        // Enable the primary button action
+        primaryButtonAction.action.Enable();
+
+        // Subscribe to the performed event of the primary button action
+        primaryButtonAction.action.performed += OnPrimaryButtonClicked;
     }
 
     void OnDestroy()
     {
-        buttonClickAction.action.performed -= OnButtonClick;
+        // Disable and unsubscribe from the primary button action
+        primaryButtonAction.action.Disable();
+        primaryButtonAction.action.performed -= OnPrimaryButtonClicked;
     }
 
-    private void OnButtonClick(InputAction.CallbackContext context)
+    private void OnPrimaryButtonClicked(InputAction.CallbackContext context)
     {
+        // Check if the audio source is not already playing
         if (!audioSource.isPlaying)
         {
+            // Play the audio
             audioSource.Play();
         }
     }
