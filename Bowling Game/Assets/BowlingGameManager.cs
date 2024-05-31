@@ -39,7 +39,6 @@ public class BowlingGameManager : MonoBehaviour
 
     void Start()
     {
-        UpdateScoreboard();
         plane.SetActive(false);
     }
 
