@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class BowlingGameManager : MonoBehaviour
 {
@@ -20,6 +21,10 @@ public class BowlingGameManager : MonoBehaviour
     private float rightMostZ = -19.078f; // Z position of the right-most pin
     private float maxAngle = 6f; // Maximum angle for rotation
 
+    public GameObject plane; // Object to show when the ball is grabbed
+    private bool isGrabbed = false;
+
+
     void Awake()
     {
         if (Instance == null)
@@ -35,7 +40,33 @@ public class BowlingGameManager : MonoBehaviour
     void Start()
     {
         UpdateScoreboard();
+        plane.SetActive(false);
     }
+
+    void Update()
+    {
+        // Check if the ball is grabbed
+        if (activeBall != null)
+        {
+            if (!isGrabbed)
+            {
+                isGrabbed = true;
+                StartCoroutine(ShowPlaneForSeconds());
+            }
+        }
+        else
+        {
+            isGrabbed = false;
+        }
+    }
+
+    IEnumerator ShowPlaneForSeconds()
+    {
+        plane.SetActive(true);
+        yield return new WaitForSeconds(5f);
+        plane.SetActive(false);
+    }
+
 
     public void PinKnockedDown()
     {
