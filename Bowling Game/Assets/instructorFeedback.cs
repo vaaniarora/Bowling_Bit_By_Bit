@@ -6,6 +6,7 @@ public class InstructorFeedback : MonoBehaviour
     public AudioClip audioClip; // Assign this in the Inspector
     private AudioSource audioSource;
     private XRGrabInteractable grabInteractable;
+    private bool hasPlayed = false;
 
     void Awake()
     {
@@ -13,20 +14,10 @@ public class InstructorFeedback : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = audioClip;
 
-        // Ensure AudioClip is assigned
-        if (audioSource.clip == null)
-        {
-            Debug.LogError("AudioClip is not assigned to AudioSource.");
-        }
-
         // Get the XRGrabInteractable component
         grabInteractable = GetComponent<XRGrabInteractable>();
 
         // Ensure XRGrabInteractable component is present
-        if (grabInteractable == null)
-        {
-            Debug.LogError("XRGrabInteractable component is missing.");
-        }
     }
 
     void OnEnable()
@@ -49,17 +40,19 @@ public class InstructorFeedback : MonoBehaviour
 
     void OnGrabbed(SelectEnterEventArgs args)
     {
-        if (!audioSource.isPlaying)
+        // Check if the audio has already played for this ball and if the global grab count is less than 2
+        if (!hasPlayed && BallManager.CanPlaySound())
         {
             audioSource.Play();
+            hasPlayed = true;
+            BallManager.IncrementGrabCount();
         }
     }
 
     void OnReleased(SelectExitEventArgs args)
     {
-        if (audioSource.isPlaying)
-        {
-            audioSource.Stop();
-        }
+        // If the ball is released, stop the audio
+        audioSource.Stop();
+        hasPlayed = false; // Reset flag for next grab
     }
 }
