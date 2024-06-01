@@ -10,8 +10,8 @@ public class ballsfx : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-        //audioSource = gameObject.AddComponent<AudioSource>(); 
+        audioSource = gameObject.AddComponent<AudioSource>();
+        //audioSource.clip = audioClip;
          
     }
 

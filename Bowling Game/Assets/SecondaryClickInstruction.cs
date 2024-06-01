@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PrimaryClickInstruction : MonoBehaviour
+public class SecondaryClickInstruction : MonoBehaviour
 {
-    public InputActionReference primaryButtonAction; // Reference to the default primary button action
+    public InputActionReference secondaryButtonAction; // Reference to the default primary button action
     public AudioSource audioSource;
 
     void Start()
@@ -11,20 +11,20 @@ public class PrimaryClickInstruction : MonoBehaviour
         //audioSource = GetComponent<AudioSource>();
 
         // Enable the primary button action
-        primaryButtonAction.action.Enable();
+        secondaryButtonAction.action.Enable();
 
         // Subscribe to the performed event of the primary button action
-        primaryButtonAction.action.performed += OnPrimaryButtonClicked;
+        secondaryButtonAction.action.performed += OnSecondaryButtonClicked;
     }
 
     void OnDestroy()
     {
         // Disable and unsubscribe from the primary button action
-        primaryButtonAction.action.Disable();
-        primaryButtonAction.action.performed -= OnPrimaryButtonClicked;
+        secondaryButtonAction.action.Disable();
+        secondaryButtonAction.action.performed -= OnSecondaryButtonClicked;
     }
 
-    private void OnPrimaryButtonClicked(InputAction.CallbackContext context)
+    private void OnSecondaryButtonClicked(InputAction.CallbackContext context)
     {
         // Check if the audio source is not already playing
         if (!audioSource.isPlaying)
