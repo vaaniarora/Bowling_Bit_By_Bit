@@ -1,20 +1,32 @@
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class GuardManager : MonoBehaviour
 {
     public MoveGuards[] guards; // Array to hold references to all guard objects
-    public Button moveButton; // Reference to the UI button
+
+    // Reference to the Input Action
+    public InputAction moveGuttersAction;
+
+    private void OnEnable()
+    {
+        // Enable the Input Action
+        moveGuttersAction.Enable();
+    }
+
+    private void OnDisable()
+    {
+        // Disable the Input Action
+        moveGuttersAction.Disable();
+    }
 
     private void Start()
     {
-        if (moveButton != null)
-        {
-            moveButton.onClick.AddListener(OnMoveButtonClicked);
-        }
+        // Subscribe to the Input Action's performed event
+        moveGuttersAction.performed += ctx => MoveGutters();
     }
 
-    private void OnMoveButtonClicked()
+    private void MoveGutters()
     {
         foreach (MoveGuards guard in guards)
         {

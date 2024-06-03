@@ -4130,8 +4130,7 @@ Transform:
   m_LocalPosition: {x: -11.26, y: 1.086, z: -23.31}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.2}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1215520725}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 90}
 --- !u!1001 &784705351
@@ -5598,7 +5597,39 @@ MonoBehaviour:
   guards:
   - {fileID: 11564606}
   - {fileID: 911354760}
-  moveButton: {fileID: 1047140597}
+  moveGuttersAction:
+    m_Name: Move Gutters
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: a2023fb3-fc66-4ef4-b336-f4c8892c089d
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: cbd2e2a8-cc1c-4619-b661-391b3be93a21
+      m_Path: <OculusTouchController>{LeftHand}/triggerPressed
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Gutters
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 37cec943-708b-4729-8638-a8b5b28e8e44
+      m_Path: <OculusTouchController>{RightHand}/triggerPressed
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Gutters
+      m_Flags: 0
+    - m_Name: 
+      m_Id: b25aaa42-5ec9-4bc8-98e3-6e1f8b0d8e8c
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Gutters
+      m_Flags: 0
+    m_Flags: 0
 --- !u!4 &876872428
 Transform:
   m_ObjectHideFlags: 0
@@ -9399,7 +9430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1215520725
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9407,17 +9438,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215520724}
-  m_LocalRotation: {x: -0.5, y: -0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: -1.5}
-  m_LocalScale: {x: 2, y: 5, z: 2}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -17.895}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1405579891}
-  m_Father: {fileID: 763772003}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -6.4, y: 10.83}
+  m_AnchoredPosition: {x: -6.399999, y: 1.3859997}
   m_SizeDelta: {x: 0.2, y: 0.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1215520726
@@ -18934,6 +18965,7 @@ SceneRoots:
   - {fileID: 911354758}
   - {fileID: 1616554107}
   - {fileID: 876872428}
+  - {fileID: 1215520725}
   - {fileID: 763772003}
   - {fileID: 1668463901}
   - {fileID: 942324779}
