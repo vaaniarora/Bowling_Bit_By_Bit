@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.11951869, g: 0.1230357, b: 0.10596891, a: 1}
+  m_IndirectSpecularColor: {r: 0.119501054, g: 0.12303872, b: 0.10604085, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -495,7 +495,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &51639013
 AudioSource:
   m_ObjectHideFlags: 0
@@ -604,9 +603,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &53775737 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5441119864242979866, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -1156,7 +1154,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &162483567
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1265,9 +1262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &239541052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,7 +1645,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &267052113
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1758,9 +1753,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &299622251 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1180876649136964170, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -2024,7 +2018,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &299622268
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2133,9 +2126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &321106969
 GameObject:
   m_ObjectHideFlags: 0
@@ -2501,7 +2493,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &334705097
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2610,9 +2601,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &343241796
 GameObject:
   m_ObjectHideFlags: 0
@@ -2907,7 +2897,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &365930330
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3016,9 +3005,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &375564874
 GameObject:
   m_ObjectHideFlags: 0
@@ -3644,7 +3632,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &509218771
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3753,9 +3740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &529919654 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2463706537061040287, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -3930,6 +3916,86 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &680232589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 680232591}
+  - component: {fileID: 680232590}
+  m_Layer: 0
+  m_Name: PinManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &680232590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680232589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6926b8b707e4c4b91a7cec26c3a39da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pins:
+  - {fileID: 1850249176}
+  - {fileID: 1144553766}
+  - {fileID: 408415033}
+  - {fileID: 595649815}
+  - {fileID: 1971053621}
+  - {fileID: 1369551455}
+  - {fileID: 1985590952}
+  - {fileID: 888949311}
+  - {fileID: 1248707196}
+  - {fileID: 53775737}
+  resetPins:
+    m_Name: Reset Pins
+    m_Type: 0
+    m_ExpectedControlType: Button
+    m_Id: 285ae021-49be-4551-83b9-de3638cea5f3
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 15723166-bc57-478e-9777-0fd0e8d492ff
+      m_Path: <OculusTouchController>/triggerPressed
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Reset Pins
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 323aae81-f83d-40e9-9458-4038f3f74589
+      m_Path: <Keyboard>/#(P)
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Reset Pins
+      m_Flags: 0
+    m_Flags: 0
+--- !u!4 &680232591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680232589}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.947957, y: 1.0165671, z: -19.720715}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4465,7 +4531,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &796103657
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4574,9 +4639,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &847922462 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2063664259210182130, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -4751,7 +4815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LineWidth: 0.005
   m_OverrideInteractorLineLength: 1
-  m_LineLength: 10
+  m_LineLength: 1
   m_AutoAdjustLineLength: 0
   m_MinLineLength: 0.5
   m_UseDistanceToHitAsMaxLineLength: 1
@@ -5614,14 +5678,6 @@ MonoBehaviour:
       m_Action: Move Gutters
       m_Flags: 0
     - m_Name: 
-      m_Id: 37cec943-708b-4729-8638-a8b5b28e8e44
-      m_Path: <OculusTouchController>{RightHand}/triggerPressed
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Move Gutters
-      m_Flags: 0
-    - m_Name: 
       m_Id: b25aaa42-5ec9-4bc8-98e3-6e1f8b0d8e8c
       m_Path: <Mouse>/leftButton
       m_Interactions: 
@@ -6096,7 +6152,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &931716723
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6205,9 +6260,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &942324775
 GameObject:
   m_ObjectHideFlags: 0
@@ -6577,7 +6631,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &957469016
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6686,9 +6739,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!4 &996685436 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5f52e48aa159f4f049e6a7a84431dae2, type: 3}
@@ -6957,7 +7009,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1014337175
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7066,9 +7117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1045344338
 GameObject:
   m_ObjectHideFlags: 0
@@ -7128,7 +7178,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Welcome! To start the bowling tutorial, click on the primary button of
     the controller \n(A on right; X on left).\nTo repeat the throwing guide, click
-    on the secondary button of the controller \n(B on right; Y on left)."
+    on the secondary button of the controller \n(B on right; Y on left).\nPress the
+    left trigger button to enable and disable the gutters.\nPress the right trigger
+    button to reset the pins."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -7155,8 +7207,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.1
-  m_fontSizeBase: 0.1
+  m_fontSize: 0.09
+  m_fontSizeBase: 0.09
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7191,7 +7243,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 2.9120998, w: 4.3791223}
+  m_margin: {x: -0.08010483, y: 0, z: 2.8344402, w: 4.3791223}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7613,7 +7665,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1090571889
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7722,9 +7773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1001 &1098036168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9998,7 +10048,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1310686331
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10107,9 +10156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1313513410
 GameObject:
   m_ObjectHideFlags: 0
@@ -10406,7 +10454,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1335516212
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10515,9 +10562,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1342470312
 GameObject:
   m_ObjectHideFlags: 0
@@ -11103,7 +11149,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1503433976
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11212,9 +11257,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1584999867 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 53362999092281305, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -11478,7 +11522,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1584999884
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11587,9 +11630,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1616554103
 GameObject:
   m_ObjectHideFlags: 0
@@ -12188,7 +12230,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1700121179
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12297,9 +12338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1701604561 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3671705736949505125, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -12563,7 +12603,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1701604578
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12672,9 +12711,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1727648629 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4362629865236985789, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -12938,7 +12976,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1727648646
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13047,9 +13084,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1737715045
 GameObject:
   m_ObjectHideFlags: 0
@@ -13116,7 +13152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LineWidth: 0.005
   m_OverrideInteractorLineLength: 1
-  m_LineLength: 10
+  m_LineLength: 1
   m_AutoAdjustLineLength: 0
   m_MinLineLength: 0.5
   m_UseDistanceToHitAsMaxLineLength: 1
@@ -14193,7 +14229,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1754347069
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14302,9 +14337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1791111519 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5624379419971784591, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -14568,7 +14602,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1791111536
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14677,9 +14710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1850249176 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4548835908313427547, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -15027,7 +15059,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1870916928
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15136,9 +15167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1872293685 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7390645515269867808, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -15402,7 +15432,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1872293702
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15511,9 +15540,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1879281896 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8708195657679933891, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -15777,7 +15805,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1879281913
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15886,9 +15913,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1889530719
 GameObject:
   m_ObjectHideFlags: 0
@@ -16270,7 +16296,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1891394894
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16379,9 +16404,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1922880155 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1772795355059567934, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -16645,7 +16669,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1922880172
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16754,9 +16777,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1927667640 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -447316554391178137, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -17020,7 +17042,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1927667657
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17129,9 +17150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1971053621 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1378821904843439000, guid: f3cb98b26997a4cceaa83e8a44fa6ff5, type: 3}
@@ -17563,7 +17583,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &1991279920
 AudioSource:
   m_ObjectHideFlags: 0
@@ -17672,9 +17691,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &1993197665
 GameObject:
   m_ObjectHideFlags: 0
@@ -18105,7 +18123,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &2060682064
 AudioSource:
   m_ObjectHideFlags: 0
@@ -18214,9 +18231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1 &2065266341
 GameObject:
   m_ObjectHideFlags: 0
@@ -18684,7 +18700,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gutterY: -0.03
   foulLine: -13.3
-  pinRespawner: {fileID: 0}
 --- !u!82 &2140895876
 AudioSource:
   m_ObjectHideFlags: 0
@@ -18793,9 +18808,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bce62463bb7e4357912be602f0be750, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gutterY: -0.03
-  tolerance: 0.01
-  audioSource: {fileID: 51639013}
+  groundY: -0.03
+  audioClip: {fileID: 0}
 --- !u!1001 &1134853577522619206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18976,3 +18990,4 @@ SceneRoots:
   - {fileID: 2012100068800020674}
   - {fileID: 1134853577522619206}
   - {fileID: 375564876}
+  - {fileID: 680232591}

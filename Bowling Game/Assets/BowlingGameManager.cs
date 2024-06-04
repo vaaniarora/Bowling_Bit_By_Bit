@@ -62,7 +62,7 @@ public class BowlingGameManager : MonoBehaviour
     IEnumerator ShowPlaneForSeconds()
     {
         plane.SetActive(true);
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(5f);
         plane.SetActive(false);
     }
 
