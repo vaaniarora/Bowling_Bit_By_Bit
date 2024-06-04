@@ -21,5 +21,5 @@ To grab a ball, move your controller in the direction of the ball, aim your hand
 
 To begin the bowling tutorial, simply press the primary button on either controller (X on the left; A on the right). The System/AI will provide initial instructions on how to proceed. Once you've grabbed a bowling ball, additional instructions will be given to guide you through the process. To repeat the additional instructions, press the secondary button on either controller (Y on the left; B on the right). To lower the gutter guards, press on the LEFT controller index trigger button (located on the front of the controller, where your index finger should be placed). To reset the pins press the RIGHT controller index trigger button.
 
-## HW3: Bowling_Bit_By_Bit Scene
-<img width="1710" alt="Screenshot 2024-05-14 at 12 14 40" src="https://github.com/vaaniarora/Bowling_Bit_By_Bit/assets/91294025/5d9bd7e1-8df2-4f7c-89f6-18ffb8c7d86c">
+## Bowling Bit By Bit Scene
+<img width="1710" alt="Screenshot 2024-06-03 at 23 12 28" src="https://github.com/vaaniarora/Bowling_Bit_By_Bit/assets/91294025/d8101a44-ec91-44d9-9590-905a66f91d5e">
