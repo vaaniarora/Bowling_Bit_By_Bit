@@ -72,11 +72,12 @@ public class DirectionalArrow : MonoBehaviour
                 float absAngle = Mathf.Abs(yAngle);
                 if (grabInteractable.selectingInteractor.name.Contains("Left"))
                 {
-                    leftArrowIndicator.transform.rotation = Quaternion.Euler(0, yAngle - 165.566f, 0);
+                    leftArrowIndicator.transform.rotation = Quaternion.Euler(0, yAngle - 183, 0);
                 }
                 else if (grabInteractable.selectingInteractor.name.Contains("Right"))
                 {
-                    rightArrowIndicator.transform.rotation = Quaternion.Euler(0, yAngle - 165.566f, 0);
+                    // rightArrowIndicator.transform.rotation = Quaternion.Euler(0, yAngle - 165.566f, 0);
+                    rightArrowIndicator.transform.rotation = Quaternion.Euler(0, yAngle - 183, 0);
                 }
             }
         }
